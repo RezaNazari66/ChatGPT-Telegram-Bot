@@ -294,4 +294,4 @@ def interact(bot, update, botname, username, new):
 
 def error(bot, update):
     """Log Errors caused by Updates."""
-logger.warning('Update "%s" caused error "%s"' % (update, context.error))
+logger.warning('Update "%s" caused error "%s"')
